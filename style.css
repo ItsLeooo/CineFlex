@@ -1,0 +1,299 @@
+/*Whole body of the code*/
+body {
+	font-size:12px;
+	line-height:1.3;
+	font-family:Arial, Helvetica, Sans-Serif;
+	background-color: #E5E9EC;
+}
+
+/*Pass <a> index.html. The function of title and colors*/
+a {
+	color:#be1515;
+	text-decoration:underline;
+	cursor:pointer;
+}
+/*The place holder will base on the font-size*/	
+input {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*Underine between the Movie Picture*/
+.cl {
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	clear:both;
+}
+.left, .alignleft {
+	float:left;
+	display:inline;
+}
+.right, .alignright {
+	float:right;
+	display:inline;
+}
+.text-right {
+	text-align:right;
+}
+h2 {
+	font-size:10px;
+	color:#be1515;
+	font-weight:bold;
+}
+h3 {
+	font-size:14px;
+	color:#be1515;
+	font-weight:bold;
+}
+h4 {
+	font-size:14px;
+	color:#123;
+	font-weight:bold;
+}
+
+#shell {
+	width:980px;
+	margin:0 auto;
+}
+#header {
+	position:relative;
+}
+h1#logo {
+	position:absolute;
+	top:29px;
+	left:0;
+}
+
+
+#navigation {
+	float:right;
+	clear:right;
+	padding-top:50px;
+	padding-bottom:39px;
+}
+#navigation ul {
+	list-style:none;
+}
+#navigation ul li {
+	float:left;
+	display:inline;
+	padding-left:29px;
+}
+#navigation ul li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#3c6f9c;
+	text-decoration:none;
+}
+#navigation ul li a.active, #navigation ul li a:hover {
+	color:#3c6f9c;
+}
+#sub-navigation {
+	display:block;
+	clear:right;
+	border-top:2px solid #666;
+	border-bottom:2px solid #666;
+	padding:8px 0;
+}
+#sub-navigation ul {
+	list-style:none;
+}
+#sub-navigation ul li {
+	float:left;
+	display:inline;
+	padding-right:23px;
+}
+#sub-navigation ul li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#3c6f9c;
+	line-height:24px;
+	text-decoration:none;
+}
+
+#sub-navigation ul li a:hover {
+	text-decoration:underline;
+}
+#search {
+	width:346px;
+	margin:0 0 0 auto;
+}
+#search label {
+	float:left;
+	display:inline;
+	font-size:14px;
+	font-weight:bold;
+	color:#3c6f9c;
+	line-height:24px;
+	padding-right:6px;
+}
+#search .search-field {
+	width:238px;
+	border:2px solid #413e3e;
+	background:#ffffff;
+	color:#787878;
+	padding:2px 0 2px 2px;
+}
+#search .search-button {
+	font-size:14px;
+	font-weight:bold;
+	border:0;
+	background:none;
+	color:#3c6f9c;
+	cursor:pointer;
+}
+#main {
+	border-bottom:3px solid #413e3e;
+}
+#content {
+}
+.box {
+	width:980px;
+	border-bottom:3px solid #413e3e;
+	padding-bottom:21px;
+}
+.box .head {
+	width:980px;
+	padding-top:14px;
+	padding-bottom:11px;
+}
+.box .head h2 {
+	float:left;
+	display:inline;
+}
+.box .movie {
+	width:152px;
+	float:left;
+	padding-right:12px;
+}
+.movie-image {
+	float:left;
+	width:152px;
+	height:214px;
+	position:relative;
+}
+.movie-image img {
+	width:152px;
+	height:214px;
+}
+.movie-image a {
+	float:left;
+	display:inline;
+	width:152px;
+	height:214px;
+	position:relative;
+	z-index:2;
+}
+.play {
+	position:absolute;
+	top:0;
+	left:0;
+	width:152px;
+	height:214px;
+	background:url('images/image-hover.png');
+	display:block;
+	z-index:5;
+	cursor:pointer;
+	display:none;
+}
+.movie span.name {
+	font-weight:bold;
+	color:#ffffff;
+	font-size:14px;
+	text-align:center;
+	padding-top:160px;
+	display:block;
+}
+.box .last {
+	padding:0;
+}
+.rating {
+	width: 152px;
+	margin: 8px auto;
+	text-align: center;
+}
+.rating p {
+	display: inline-block;
+	font-size: 13px;
+	color: #3c6f9c;
+	font-weight: bold;
+}
+#news {
+	width:460px;
+	float:left;
+}
+#news .head {
+	width:460px;
+	padding-top:11px;
+	padding-bottom:14px;
+}
+#news h3, #coming h3 {
+	float:left;
+}
+#coming {
+	width:490px;
+	float:left;
+	padding-left:30px;
+}
+#coming .head {
+	width:490px;
+	padding-top:11px;
+	padding-bottom:14px;
+}
+#coming .head strong {
+	color:#ff361a;
+}
+#coming .content {
+	min-height:130px;
+	height:auto !important;
+	height:130px;
+	padding-bottom:20px;
+}
+#coming .content h4 {
+	padding-bottom:3px;
+}
+.content {
+	padding-bottom:28px;
+}
+.content .date {
+	font-size:10px;
+	color:#3c6f9c;
+}
+.content img {
+	float:left;
+	width:68px;
+	padding-right:8px;
+}
+.content p {
+	font-size:13px;
+	color:#3c6f9c;
+	line-height:16px;
+}
+.content a {
+	font-size:11px;
+}
+#footer {
+	padding:15px 0 0 0;
+	font-size:10px;
+}
+#footer, #footer a {
+	color:#9c9c9c;
+	text-decoration:none;
+}
+#footer a:hover {
+	text-decoration:none;
+}
+#footer p {
+	margin:0;
+	padding:0 0 11px 0;
+	line-height:normal;
+	white-space:nowrap;
+}
+#footer .lf {
+	float:left;
+}
+#footer .rf {
+	float:right;
+}
